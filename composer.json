@@ -1,0 +1,20 @@
+{
+    "name": "indigophp/codeception-fuel-module",
+    "description": "Codeception Fuel 1.x module",
+    "license": "MIT",
+    "keywords": ["codeception", "fuel"],
+    "homepage": "https://indigophp.com",
+    "authors": [
+        {
+            "name": "Márk Sági-Kazár",
+            "email": "mark.sagikazar@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Codeception\\Module\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
