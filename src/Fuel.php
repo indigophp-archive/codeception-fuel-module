@@ -29,7 +29,7 @@ class Fuel extends Framework
         $fuel = '';
 
         if (strpos('/', $this->config['fuel']) !== 0) {
-            $fuel = \Codeception\Configuration::projectDir();
+            $fuel = realpath(__DIR__.'/..').'/';
         }
 
         $fuel .= $this->config['fuel'];

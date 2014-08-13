@@ -10,6 +10,9 @@
             "email": "mark.sagikazar@gmail.com"
         }
     ],
+    "require": {
+        "monolog/monolog": "*"
+    },
     "autoload": {
         "psr-4": {
             "Codeception\\Module\\": "src/"
